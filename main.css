@@ -1,0 +1,92 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: 1px;
+    background: none;
+    padding: none;
+    cursor: pointer;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    grid-template-rows: 80px;
+    grid-gap: 65px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    width: auto;
+    height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .social-media{
+        grid-template-rows: 60px;
+        grid-gap: 0px;
+    }
+
+    img.link {
+        height: 60px;
+        width: auto;
+    }
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.link {
+    height: 80px;
+    width: auto;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.insta-link {   
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.yt-link {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.discord-link {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+iframe {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.other-links {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-color: #2C83B4;
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 20px;
+}
