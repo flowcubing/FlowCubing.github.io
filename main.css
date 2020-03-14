@@ -37,6 +37,29 @@ button {
         height: 60px;
         width: auto;
     }
+
+    button.other-links {
+        font-size: 15px;
+        width: 120px;
+        height: 30px;
+    }
+
+    button.cubing-timeline {
+        font-size: 10px;
+        width: 120px;
+        height: 30px;
+    }
+    
+    button.cubing-memes {
+        font-size: 10px;
+        width: 120px;
+        height: 30px;
+    }
+
+    iframe.video {
+        width: 320px;
+        height: 180px;
+    }
 }
 
 .banner {
@@ -85,6 +108,32 @@ h1 {
     background-color: #2C83B4;
     color: white;
     font-size: 30px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.cubing-timeline {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-color: #2C83B4;
+    color: white;
+    font-size: 22px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.cubing-memes {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #2C83B4;
+    color: white;
+    font-size: 22px;
     width: 200px;
     height: 60px;
     cursor: pointer;
