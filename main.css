@@ -40,25 +40,24 @@ button {
 
     button.other-links {
         font-size: 15px;
-        width: 120px;
+        width: 100px;
         height: 30px;
     }
 
     button.cubing-timeline {
         font-size: 10px;
-        width: 120px;
+        width: 100px;
         height: 30px;
     }
     
     button.cubing-memes {
         font-size: 10px;
-        width: 120px;
+        width: 100px;
         height: 30px;
     }
 
     iframe.video {
-        width: 320px;
-        height: 180px;
+        width: 100%;
     }
 }
 
@@ -96,11 +95,6 @@ a {
 h1 {
     font-size: 40px;
 }
-
-/* iframe {
-    margin-top: 0px;
-    margin-bottom: 0px;
-} */
 
 .other-links {
     margin-top: 30px;
