@@ -389,7 +389,7 @@ function addButton() {
     new_hover.className = "x-hover";
 
     new_hover.appendChild(new_x);
-    new_x.src = "/images/x-icon.png";
+    new_x.src = "/pomodoroclean-images/x-icon.png";
     new_x.alt = "x";
     new_x.style = "height: 15px; width: 15px;";
 
